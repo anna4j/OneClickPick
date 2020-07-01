@@ -1,0 +1,30 @@
+#leftColumn{
+   height: 60vh;
+   background-color: lightsalmon;
+}
+#rightColumn{
+ height: 60vh;
+ background-color: moccasin;
+
+
+}
+#contactHeading{
+	text-decoration-color:white;
+	border: 10px;
+	padding: 5px;
+
+}
+#contactSection{
+	
+	
+	border: 1px;
+	border-color: black;
+    border-style:ridge;
+}
+
+iframe{
+	padding: 15px;
+	margin: 5px;
+	height:45vh;
+	width:100%;
+	}
