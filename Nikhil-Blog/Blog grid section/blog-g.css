@@ -1,6 +1,6 @@
 
 html , body{
-    background-color: #efefef !important;
+    background-color: paleturquoise;
     margin: 0;
     padding: 0;
     height:100%;
@@ -13,12 +13,14 @@ html , body{
 .head-t{
     margin-top: 10px;
     padding: 20px;
-   background-color:rgb(218, 233, 248);
+   background-color:honeydew;
 }
 .head-t h1{
     margin-right: 26em;
     color: rgb(85, 84, 84);
 }
+
+
 .carousel-container{
     width: 80.8%;
     margin: auto;
@@ -26,13 +28,13 @@ html , body{
     padding-bottom: 40px;
     overflow: hidden;
     position: relative;
-    
+    background-color: paleturquoise;
     
 }
 .carousel-slide{
     display:flex;
     width: 100%;
-    
+      background-color: paleturquoise;
 }
 .adjust{
     padding: 10px;
@@ -133,7 +135,7 @@ img{
     height: 450px;
 }
 .footer-top{
-    background: black;
+    background: khaki;
     color:white;
     padding: 50px 0;
     padding-left: 15px;
@@ -213,7 +215,7 @@ img{
 
 .footer-bottom-text{
     text-align: center;
-    background:rgb(245, 242, 242);
+    background:steelblue;
     line-height: 50px;
 }
 footer{
