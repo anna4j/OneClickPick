@@ -1,13 +1,20 @@
 #leftColumn{
    height: 60vh;
-   background-color: lightsalmon;
+    background-color: honeydew;
 }
 #rightColumn{
  height: 60vh;
- background-color: moccasin;
+background-color: lightpink;
 
 
 }
+
+
+body{
+	 background-color: paleturquoise;
+}
+
+
 #contactHeading{
 	text-decoration-color:white;
 	border: 10px;

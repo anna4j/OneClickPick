@@ -1,7 +1,8 @@
-body { font-family: "Baumans";font-size: 22px;}
+body { font-family: "Baumans";font-size: 22px; background-color: paleturquoise;}
+
 
 #header { background:#eee; }
-      #header-inner { margin:0 auto; padding:10px; width:100%;background:#fff;}
+      #header-inner { margin:0 auto; padding:10px; width:100%;background:honeydew;}
       
     .container {
   position: relative;
@@ -39,4 +40,4 @@ body { font-family: "Baumans";font-size: 22px;}
             .row::after {content: "";  clear: both;  display: table;}
       .clr { clear:both; padding:0; margin:0; width:100%; font-size:0px; line-height:0px;}
 
-      .center { margin: 10px; position:relative; right: 5px;width: 62%;height: 3000px;padding: 1px; overflow: auto;}
+      .center { margin: 10px; position:relative; right: 5px;width: 62%;height: 3000px;padding: 1px; overflow: auto;background-color: lightpink;}
