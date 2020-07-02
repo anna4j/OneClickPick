@@ -1,7 +1,7 @@
 html,body {
   height:100vh;
 }
-, .item, .active {
+.item, .active {
   height:100vh;
 }
 .carousel { 
