@@ -8,8 +8,15 @@
 
 # Font Color
 
-- For dark backgrounds: white
-- For light backgrounds: black
+- Header -> coral
+- Body -> coral
+- Lower region -> crimson
+- Footer -> indianred
+- Footer-Ending -> white
+
+# Button 
+to all button apply 
+background:linear-gradient(45deg,#E74C3C ,gold);
 
 The Colour scheme is currently applied to 5 pages namely ContactUs, Shop By Women, Blog-site, Footer, Shop By Brand.
 Colour Scheme on other pages will be applied once those pages are ready.
