@@ -40,3 +40,26 @@ carouselSlide.addEventListener('transitionend', ()=>{
     }
     
 })
+
+
+
+
+
+
+//To pop up the message about subscription
+
+var validatefunction  = function validate() {
+
+    var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+    var email = document.getElementById("mail").value;
+    if (reg.test(email) == false) 
+    {
+        alert('Invalid Email Address');
+        return (false);
+    } else {
+        alert('You have subscribed !!');
+        return(true);
+    }
+};
+document.getElementById("sbutton").addEventListener("click", validatefunction);
+
