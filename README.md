@@ -26,8 +26,7 @@ Note: For this you need to install git on your machine. You can download the git
 
 If you have forked the project, run the following command -
 
-git clone https://github.com/YOUR_GITHUB_USER_NAME/landing-page.git
-
+git clone https://github.com/anna4j/OneClickPick.git
 
 where YOUR_GITHUB_USER_NAME is your GitHub handle.
 
@@ -36,7 +35,7 @@ Note: In order to contribute to the project.
 
 When a repository is cloned, it has a default remote named origin that points to your fork on GitHub, not the original repository it was forked from. To keep track of the original repository, you should add another remote named upstream. For this project it can be done by running the following command -
 
-git remote add upstream https://github.com/anna4j/landing-page.git
+git remote add upstream https://github.com/anna4j/OneClickPick.git
 
 # Pull
 In order to fetch the latest changes from the upstream or main repo, use the following command:
