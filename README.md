@@ -26,7 +26,7 @@ Note: For this you need to install git on your machine. You can download the git
 
 If you have forked the project, run the following command -
 
-git clone https://github.com/anna4j/OneClickPick.git
+git clone https://github.com/YOUR_GITHUB_USER_NAME/OneClickPick.git
 
 where YOUR_GITHUB_USER_NAME is your GitHub handle.
 
