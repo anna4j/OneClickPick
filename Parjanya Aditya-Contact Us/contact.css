@@ -15,12 +15,11 @@ body{
 }
 
 
-#contactHeading{
-	text-decoration-color:white;
-	border: 10px;
-	padding: 5px;
-
+button{
+	background:linear-gradient(45deg,#E74C3C ,gold);
 }
+
+
 #contactSection{
 	
 	
@@ -35,3 +34,20 @@ iframe{
 	height:45vh;
 	width:100%;
 	}
+	#contactHeading{
+
+	border: 10px;
+	padding: 5px;
+		color: crimson;
+
+}
+#locationHeading{
+
+	border: 10px;
+	padding: 5px;
+		color: coral;
+
+}
+label{
+	color: crimson;
+}

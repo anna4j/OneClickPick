@@ -6,8 +6,8 @@ html , body{
 }
 
 .footer-top{
-    background: black;
-    color:white;
+    background: khaki;
+    color: indianred;
     padding: 50px 0;
     padding-left: 15px;
 }
@@ -76,7 +76,7 @@ html , body{
 }
 
 .segment-four form input[type=submit]{
-    background:orangered;
+    background:linear-gradient(45deg,#E74C3C ,gold);
     border:none;
     padding: 3px 2px;
     margin-left: -5px;
@@ -86,8 +86,9 @@ html , body{
 
 .footer-bottom-text{
     text-align: center;
-    background:rgb(245, 242, 242);
+    background:steelblue;
     line-height: 50px;
+    color: white;
 }
 footer{
     position: absolute;
