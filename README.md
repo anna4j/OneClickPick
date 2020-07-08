@@ -1,4 +1,6 @@
 # The Uplift project
+https://www.girlscript.tech/programs/uplift/images/uplift_logo.png
+
 # HTML CSS JavaScript 
 # Team name: team-html06
 # Domain: e-commerce and marketing
