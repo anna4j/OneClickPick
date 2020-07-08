@@ -1,5 +1,7 @@
 # The Uplift project
-https://www.girlscript.tech/programs/uplift/images/uplift_logo.png
+
+![uplift_image](https://www.girlscript.tech/programs/uplift/images/uplift_logo.png)
+
 
 # HTML CSS JavaScript 
 # Team name: team-html06
