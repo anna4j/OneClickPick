@@ -1,0 +1,45 @@
+export default class FirstTimeIssue extends Component {
+
+    const iframe = '<iframe src="http://code.publiclab.org/examples/embed.html#o=orgname&r=repository" style="border:none" width="100%" height="600px"></iframe>';
+    
+    function Iframe(props) {
+    return (<div dangerouslySetInnerHTML={{ __html: props.iframe ? props.iframe : "" }} />);
+}
+
+
+
+render() {
+    return (
+        <View style={[styles.container]}>
+            <Text style={[styles.heading]}>SOME COOL FIRST TIME ISSUES TO WORK ON</Text>
+
+            <Iframe iframe={iframe} />
+
+        </View>
+
+
+    );
+}
+}
+
+
+const styles = StyleSheet.create({
+    container: {
+        backgroundColor: 'white',
+        width: '100%',
+        padding: 32,
+        flexWrap: 'wrap',
+        flexDirection: 'row'
+
+    },
+    heading: {
+        fontSize: '2.55em',
+        fontWeight: 500,
+        paddingBottom: 5,
+        paddingTop: 8,
+        color: '#103B81',
+    }
+
+
+});
+
