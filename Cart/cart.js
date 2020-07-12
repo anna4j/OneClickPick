@@ -10,3 +10,64 @@ couponCd.addEventListener('click' , function(){
         alert('Coupon Code Applied!!');
     }
 });
+
+
+function incrementValue()
+{
+    var value = parseInt(document.getElementById("item1").value, 10);
+    value = isNaN(value) ? 0 : value;
+    if(value<10){
+        value++;
+            document.getElementById("item1").value = value;     
+    }
+}
+function decrementValue()
+{
+    var value = parseInt(document.getElementById("item1").value, 10);
+    value = isNaN(value) ? 0 : value;
+    if(value>1){
+        value--;
+            document.getElementById("item1").value = value;
+    }
+
+}
+
+function incrementValue2()
+{
+    var value = parseInt(document.getElementById("item2").value, 10);
+    value = isNaN(value) ? 0 : value;
+    if(value<10){
+        value++;
+            document.getElementById("item2").value = value;     
+    }
+}
+function decrementValue2()
+{
+    var value = parseInt(document.getElementById("item2").value, 10);
+    value = isNaN(value) ? 0 : value;
+    if(value>1){
+        value--;
+            document.getElementById("item2").value = value;
+    }
+
+}
+
+function incrementValue3()
+{
+    var value = parseInt(document.getElementById("item3").value, 10);
+    value = isNaN(value) ? 0 : value;
+    if(value<10){
+        value++;
+            document.getElementById("item3").value = value;     
+    }
+}
+function decrementValue3()
+{
+    var value = parseInt(document.getElementById("item3").value, 10);
+    value = isNaN(value) ? 0 : value;
+    if(value>1){
+        value--;
+            document.getElementById("item3").value = value;
+    }
+
+}
