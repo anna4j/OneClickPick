@@ -19,6 +19,7 @@
 
 
 	<body>
+    <div class="header-inner">
 	  <nav class="navbar fixed-top navbar-expand-lg navbar-light">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,9 +34,9 @@
       <!-- left side nav bar  -->
       <ul class="navbar-nav upbar">
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle display mr-5" href="../PriyanshiAgrawal-Home/carouselandheader.html" id="navbarDropdown" role="button"
+          <a class="nav-link dropdown-toggle display mr-5" href="../Home/carouselandheader.html" id="navbarDropdown" role="button"
             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <b>Home</b>
+           <i class="fa fa-home"></i> <b>Home</b>
           </a>
         
         </li>
@@ -43,10 +44,10 @@
           <a class="nav-link mr-5 mr-5" href="#"><b>Shop</b> <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item display">
-          <a class="nav-link mr-5" href="..\Nikhil-Blog\Blog grid section\Blog-g.html"><b>Blog</b></a>
+          <a class="nav-link mr-5" href="..\Blog1\Blog-g.html"><b>Blog</b></a>
         </li>
         <li class="nav-item display">
-          <a class="nav-link mr-5" href="#footer"><b>Contact</b></a>
+          <a class="nav-link mr-5" href="..\Contact Us\Contact Us Page.html"><b>Contact</b></a>
         </li>
         <div class="icons d-flex flex-row bd-highlight ml-5 float-left">
           <div class="p-2 bd-highlight">
@@ -61,14 +62,14 @@
           </div>
           <div class="p-2 bd-highlight">
             <li class="nav-item display">
-              <a class="nav-link" href="..\Abhishek -Cart\cart.html"><b><i class="fa fa-shopping-cart" aria-hidden="true"></i></b></a>
+              <a class="nav-link" href="..\Cart\cart.html"><b><i class="fa fa-shopping-cart" aria-hidden="true"></i></b></a>
             </li>
           </div>
         </div>
 
       </ul>
     </div>
-  </nav>
+  </nav></div>
 
 
 
@@ -78,14 +79,93 @@
    <img class="mySlides" src="images/heroimg2.jpg" align="center"   width=100% height=250 px>
     <img class="mySlides" src="images/heroimg3.jpg" align="center"   width=100% height=250 px>
   <div class="content">
- 
-   <div id="top-nav2">
-            <ul>
-            <li><a href="#"><i class="fa fa-home"></i>Home ></a></li>
-            <li><a href="#">Shop ></a></li>
-            <li><a href="#">Shop for Women</a></li>
-            </ul>
-         </div></div></div>
+ <div class="custom-select" style="width:200px;">
+Sort by:
+ <select>
+    <option value="0" >Popularity<i class='fas fa-angle-down' style='font-size:24px'></i></option>
+      <option value="1">Popularity</option>
+    <option value="2">Low-High Price</option>
+    <option value="3">High-Low Price</option>
+    <option value="4">Average Rating</option>
+    <option value="5">A-Z Order</option>
+    <option value="6">Z-A Order</option>
+  </select>
+
+</div>
+
+<script>
+var x, i, j, l, ll, selElmnt, a, b, c;
+x = document.getElementsByClassName("custom-select");
+l = x.length;
+for (i = 0; i < l; i++) {
+  selElmnt = x[i].getElementsByTagName("select")[0];
+  ll = selElmnt.length;
+  a = document.createElement("DIV");
+  a.setAttribute("class", "select-selected");
+  a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
+  x[i].appendChild(a);
+  b = document.createElement("DIV");
+  b.setAttribute("class", "select-items select-hide");
+  for (j = 1; j < ll; j++) {
+    c = document.createElement("DIV");
+    c.innerHTML = selElmnt.options[j].innerHTML;
+    c.addEventListener("click", function(e) {
+        var y, i, k, s, h, sl, yl;
+        s = this.parentNode.parentNode.getElementsByTagName("select")[0];
+        sl = s.length;
+        h = this.parentNode.previousSibling;
+        for (i = 0; i < sl; i++) {
+          if (s.options[i].innerHTML == this.innerHTML) {
+            s.selectedIndex = i;
+            h.innerHTML = this.innerHTML;
+            y = this.parentNode.getElementsByClassName("same-as-selected");
+            yl = y.length;
+            for (k = 0; k < yl; k++) {
+              y[k].removeAttribute("class");
+            }
+            this.setAttribute("class", "same-as-selected");
+            break;
+          }
+        }
+        h.click();
+    });
+    b.appendChild(c);
+  }
+  x[i].appendChild(b);
+  a.addEventListener("click", function(e) {
+
+      e.stopPropagation();
+      closeAllSelect(this);
+      this.nextSibling.classList.toggle("select-hide");
+      this.classList.toggle("select-arrow-active");
+    });
+}
+function closeAllSelect(elmnt) {
+
+  var x, y, i, xl, yl, arrNo = [];
+  x = document.getElementsByClassName("select-items");
+  y = document.getElementsByClassName("select-selected");
+  xl = x.length;
+  yl = y.length;
+  for (i = 0; i < yl; i++) {
+    if (elmnt == y[i]) {
+      arrNo.push(i)
+    } else {
+      y[i].classList.remove("select-arrow-active");
+    }
+  }
+  for (i = 0; i < xl; i++) {
+    if (arrNo.indexOf(i)) {
+      x[i].classList.add("select-hide");
+    }
+  }
+}
+
+document.addEventListener("click", closeAllSelect);
+</script>
+  
+  <div class="page-no"><1/5></div>
+  </div></div>
 
 </section>
 
@@ -200,7 +280,11 @@ function carousel() {
 </div>
    <div class="column">
     <div class="n-ppost"><img src="images/12.jpg" alt="" style="width:100%">
-     <p>Men’s Hats<br><a  href="#"><b>3-Color Sun Stash Hat</b></a><br>$25.99</p></div></div>
+     <p>Men’s Hats<br><a  href="#"><b>3-Color Sun Stash Hat</b></a><br>$25.99</p></div>
+   <div class="n-ppost-name"><button class="add"><i class="fa fa-shopping-cart">Add to Cart </i></button>
+  <div>Quick view</div></div>
+</div>
+    
      <div class="column">
     <div class="n-ppost"><img src="images/13.jpg" alt="" style="width:100%">
      <p>Men’s T-shirts<br><a  href="#"><b>Cotton Polo Regular Fit</b></a><br>$11.50<s> $13.50</s></p>
@@ -223,16 +307,16 @@ function carousel() {
   <div>Quick view</div></div>
   </div>
 </div>
+</div>
 <div class="pagination">
   <a href="#">&laquo; Prev</a>
-  <a href="#" class="active">1</a>
+  <a href="#" class="active"><b>1</b></a>
   <a href="#" >2</a>
   <a href="#">3</a>
   <a href="#">4</a>
   <a href="#">5</a>
   <a href="#">6</a>
   <a href="#">Next &raquo;</a>
-</div>
 </div>
 
 
