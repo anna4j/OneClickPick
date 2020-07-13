@@ -1,0 +1,43 @@
+html, body
+{
+    overflow-x:hidden;
+    width:100%;
+}
+
+a.logo
+{
+    font-size:30px;
+    text-decoration:none;
+    outline:none;
+    color:black;
+    font-weight:bold;
+}
+a.logo:hover{
+    color:indianred;
+}
+.home a, .shop a, .blog a, .search , .cart, .user
+{
+    text-decoration:none;
+    outline:none;
+    color:black;
+    font-size:28px;
+}
+.home a:hover, .shop a:hover, .blog a:hover, a.search:hover , a.cart:hover, a.user:hover{
+    color:indianred;
+}
+.customtoggler.navbar-toggler
+{
+    border:2px solid indianred;
+}
+   
+        .customtoggler .navbar-toggler-icon { 
+            background-image: url( 
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(205,92,92)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+        } 
+@media(max-width:991px)
+{
+     .search, .cart, .user{
+        text-align:center;
+        width:100%;
+    }
+}

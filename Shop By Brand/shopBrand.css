@@ -1,4 +1,4 @@
-.heading{
+.heading.display{
 	background-color: honeydew;
 	color: coral;
 	text-align:center;
@@ -14,8 +14,9 @@
 	width: 100%;
 	margin-top: 4px; 
 	color: crimson;
+    margin-left:100px;
 }
-img{
+.card-img{
 	height:30vh; 
 	width: 30vh;
 	float: center;
@@ -25,15 +26,15 @@ img{
 	border: none;
 	padding: none;
 	margin: none;
-	hover
+	
 }
-.col-md-3-col-6{
+.column{
 	box-sizing: border-box;
 	border: 20px;
 
    }
 
-body{
+.shopbybrand{
 	 background-color: paleturquoise;
 }
 
