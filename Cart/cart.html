@@ -6,6 +6,12 @@
     <title>Ecommerce</title>
     
     <link rel="stylesheet" type="text/css" href="cart.css">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -13,73 +19,47 @@
 </head>
 <body>
   
-  <nav class="navbar fixed-top navbar-expand-lg navbar-light">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <a class="navbar-brand" href="#"><img src="images/logo.png" width="80" height="80"
-        class=" image d-inline-block align-top" alt="" loading="lazy"><span
-        class="p-3 display-4 name logo"><b>OneClickPick</b></span></a>
+     <nav class="navbar navbar-expand-lg ">
+  <a class="navbar-brand logo" href="index.html">OneClickPick</a>
+  <button class="navbar-toggler customtoggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon "></span>
+  </button>
 
-    <!-- all the links inside mobile menu  -->
-    <div class="collapse navbar-collapse ml-5" id="navbarSupportedContent">
-      <!-- left side nav bar  -->
-      <ul class="navbar-nav upbar">
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle display mr-5" href="#" id="navbarDropdown" role="button"
-            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <b>Home</b>
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
-        </li>
-        <li class="nav-item display">
-          <a class="nav-link mr-5 mr-5" href="#"><b>Shop</b> <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle display mr-5" href="#" id="navbarDropdown" role="button"
-            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <b>Template</b>
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
-        </li>
-        <li class="nav-item display">
-          <a class="nav-link mr-5" href="#"><b>Blog</b></a>
-        </li>
-        <li class="nav-item display">
-          <a class="nav-link mr-5" href="#"><b>Contact</b></a>
-        </li>
-        <div class="icons d-flex flex-row bd-highlight ml-5 float-left">
-          <div class="p-2 bd-highlight">
-            <li class="nav-item display">
-              <a class="nav-link ml-5" href="#"><b><i class="fa fa-search" aria-hidden="true"></i></b></a>
-            </li>
-          </div>
-          <div class="p-2 bd-highlight">
-            <li class="nav-item display">
-              <a class="nav-link" href="#"><b><i class="fa fa-user" aria-hidden="true"></i></b></a>
-            </li>
-          </div>
-          <div class="p-2 bd-highlight">
-            <li class="nav-item display">
-              <a class="nav-link" href="#"><b><i class="fa fa-shopping-cart" aria-hidden="true"></i></b></a>
-            </li>
-          </div>
-        </div>
-
-      </ul>
-    </div>
-  </nav>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto lists">
+      <li class="nav-item active home">
+        <a class="nav-link mr-5 text-center" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown shop">
+        <a class="nav-link dropdown-toggle text-center mr-5" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Shop
+        </a>
+        <div class="dropdown-menu text-center" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="./Shop_for_men/Uplift-men's-clothing.html">Shop for Men</a>
+          <a class="dropdown-item" href="./Shop_for_women/shop_for_women.html">Shop for Women</a>
+                  </div>
+      </li>
+      <li class="nav-item blog">
+        <a class="nav-link mr-5 text-center" href="Blog1/Blog-g.html" >Blog</a>
+      </li>
+    
+    <!--<form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>-->
+      <li class="nav-item d-flex icons mr-3">
+            
+        <a class="nav-link search mr-3" href="#"><i class="fa fa-search fa-lg text-center" aria-hidden="true"></i></a>
+      
+        
+        <a class="nav-link cart mr-3" href="./Cart/cart.html"><i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i></a>
+      
+        
+        <a class="nav-link user mr-3" href="./Contact%2520Us/Contact%20Us%20Page.html"><i class="fa fa-phone fa-lg" aria-hidden="true"></i>
+                </a>
+      </li>    </ul>
+  </div>
+</nav>
 
     <div class="table-responsive">
         <table class="table">
@@ -105,28 +85,40 @@
                 <div class="p-2">
                   <img src="image/w1.jpg" alt="" width="70" class="img-fluid rounded shadow-sm">
                   <div class="ml-3 d-inline-block align-middle">
-                    <h5 class="mb-0"> <a href="#" class="text-dark d-inline-block align-middle">Timex Unisex Originals</a></h5><span class="text-muted font-weight-normal font-italic d-block">Category: Watches</span>
+                    <h5 class="mb-0"> <a href="#" class="text-dark d-inline-block align-middle">
+                      Timex Unisex Originals</a></h5><span class="text-muted font-weight-normal font-italic d-block">
+                        Category: Watches</span>
                   </div>
                 </div>
               </th>
-              <td class="border-0 align-middle"><strong><span>&#8377;</span>
-                79.00</strong></td>
-              <td class="border-0 align-middle"><strong>3</strong></td>
-              <td class="border-0 align-middle"><a href="#" class="text-dark"><i class="fa fa-trash"></i></a></td>
+              <td    class="border-0 align-middle" ><strong value="799.00" class=".price"><span>&#8377;</span>
+                799.00</strong></td>
+
+                <td class= align-middle>
+                  <input type="button" onclick= "decrementQuantity(1)" value="-" />
+                  <input type="text" name="quantity" value="1" maxlength="2" max="10" size="1" class="quantity" />
+                   <input type="button" onclick="incrementQuantity(1)" value="+" />
+                </td>
+                
+              <td class="border-0 align-middle"><a href="#" class="text-dark"><i style="font-size: 20px" class="fa fa-trash" aria-hidden="true"></i></a></td>
             </tr>
             <tr>
               <th scope="row">
                 <div class="p-2">
                   <img src="image/len.jpg" alt="" width="70" class="img-fluid rounded shadow-sm">
                   <div class="ml-3 d-inline-block align-middle">
-                    <h5 class="mb-0"><a href="#" class="text-dark d-inline-block">canon camera lense</a></h5><span class="text-muted font-weight-normal font-italic">Category: Electronics</span>
+                    <h5 class="mb-0"><a href="#"  class="text-dark d-inline-block">canon camera lense</a></h5><span class="text-muted font-weight-normal font-italic">Category: Electronics</span>
                   </div>
                 </div>
               </th>
-              <td class="align-middle"><strong><span>&#8377;</span>
-                79.00</strong></td>
-              <td class="align-middle"><strong>3</strong></td>
-              <td class="align-middle"><a href="#" class="text-dark"><i class="fa fa-trash"></i></a>
+              <td class="align-middle" ><strong value="999.00" class=".price"><span>&#8377;</span>
+                999.00</strong></td>
+                <td class= align-middle>
+                  <input type="button" onclick="decrementQuantity(2)" value="-" />
+                  <input type="text" name="quantity" value="1" maxlength="2" max="10" size="1" class="quantity" />
+                   <input type="button" onclick="incrementQuantity(2)" value="+" />
+                </td>
+              <td class="align-middle"><a href="#" class="text-dark"><i style="font-size: 20px" class="fa fa-trash" aria-hidden="true"></i></a>
               </td>
             </tr>
             <tr>
@@ -137,10 +129,16 @@
                     <h5 class="mb-0"> <a href="#" class="text-dark d-inline-block">Gray Nike running shoe</a></h5><span class="text-muted font-weight-normal font-italic">Category: Fashion</span>
                   </div>
                 </div>
-                <td class="align-middle"><strong><span>&#8377;</span>
-                    79.00</strong></td>
-                <td class="align-middle"><strong>3</strong></td>
-                <td class="align-middle"><a href="#" class="text-dark"><i class="fa fa-trash"></i></a>
+
+                <td class="align-middle" ><strong value="299.00"  ><span>&#8377;</span>
+                    299.00</strong></td>
+                    <td class= align-middle>
+                      <input type="button" onclick= "decrementQuantity(3)" value="-" />
+                      <input type="text" name="quantity" value="1" maxlength="2" max="10" size="1" class="quantity" />
+                       <input type="button" onclick="incrementQuantity(3)" value="+" />
+                    </td>
+
+                <td class="align-middle"><a href="#" class="text-dark"><i style="font-size: 20px" class="fa fa-trash" aria-hidden="true"></i></a>
                 </td>
             </tr>
           </tbody>
@@ -156,9 +154,9 @@
       <div class="p-4">
         <p class="font-italic mb-4">If you have a coupon code, please enter it in the box below</p>
         <div class="input-group mb-4 border rounded-pill p-2">
-          <input type="text" placeholder="Apply coupon" aria-describedby="button-addon3" class="form-control border-0">
+          <input type="text" placeholder="Apply Coupon OCP" aria-describedby="button-addon3" class="form-control border-0">
           <div class="input-group-append border-0">
-            <button id="button-addon3" type="button" class="btn btn-dark px-4 rounded-pill"><i class="fa fa-gift mr-2"></i>Apply coupon</button>
+            <button id="button-addon3" type="button" class="btn btn-dark px-4 rounded-pill"><i class="fa fa-gift mr-2"></i>Apply coupon </button>
           </div>
         </div>
       </div>
@@ -180,7 +178,7 @@
           <li class="d-flex justify-content-between py-3 border-bottom"><strong class="text-muted">Tax</strong><strong><span>&#8377;</span>
             0.00</strong></li>
           <li class="d-flex justify-content-between py-3 border-bottom"><strong class="text-muted">Total</strong>
-            <h5 class="font-weight-bold"><span>&#8377;</span>
+            <h5 class="font-weight-bold" id="totalPrice" value="0.00 "><span>&#8377;</span>
                 400.00</h5>
           </li>
         </ul><a href="billing.html" class="btn btn-dark rounded-pill py-2 btn-block">Procceed to checkout</a>
@@ -188,7 +186,9 @@
     </div>
   </div>
 
-  <footer>
+
+
+<footer>
     <div class="footer-top">
         
             <div class="row">
@@ -235,8 +235,12 @@
 </footer>
 
 
+ <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  
 
-
+<script src="cart.js"></script>
 
 </body>
 </html>

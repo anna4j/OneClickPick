@@ -1,18 +1,17 @@
-html , body{
-   margin: 0px;
-   padding: 0px;
-   min-height: 100%;
-   height:100%;
-}
-
 .footer-top{
     background: khaki;
-    color:white;
+    color:indianred;
     padding: 50px 0;
     padding-left: 15px;
+    
+}
+.segment-one, .segment-two , .segment-three 
+{
+    border-right: 1px solid indianred;
+    text-align:center;
 }
 
-.segment-one h3{
+.segment-one h2{
     font-family:'Courier New', Courier, monospace;
     
     letter-spacing: 3px;
@@ -22,11 +21,11 @@ html , body{
     font-family:'Courier New', Courier, monospace;
     text-transform: uppercase;
 }
-.segment-two h2:before{
+/*.segment-two h2:before{
     content: '|';
     color:#c65039;
     padding-right: 10px;
-}
+}*/
 .segment-two ul{
     margin: 0;
     padding: 0;
@@ -37,18 +36,19 @@ html , body{
     line-height: 30px;
 }
 .segment-two ul li a{
-    color:wheat;
+    text-align:center;
     text-decoration: none;
+    color:indianred;
 }
 .segment-three h2{
     text-transform: uppercase;
     font-family: 'Courier New', Courier, monospace;
   }
-.segment-three h2:before{
+/*.segment-three h2:before{
     content: '|';
     color:#c65039;
     padding-right: 10px;
-}
+}*/
 .segment-three a{
     background: #494848;
     width: 40px;
@@ -65,11 +65,11 @@ html , body{
     text-transform: uppercase;
     font-family: 'Courier New', Courier, monospace;
 }
-.segment-four h2:before{
+/*.segment-four h2:before{
     content: '|';
     color:#c65039;
     padding-right: 10px;
-}
+}*/
 .sub{
     
     display: block;
@@ -88,12 +88,19 @@ html , body{
     text-align: center;
     background:steelblue;
     line-height: 50px;
+    color:white;
+    margin-bottom:0;
 }
-footer{
-    position: absolute;
+.page-footer
+{
+    margin-top:10px;
+}
+/*.page-footer{
+    position:absolute;
     bottom: 0;
+    left:0;
     width: 100%;
-    height: 60px;
+    
 
 
-}
+}*/
