@@ -1,7 +1,13 @@
-body { font-family: "Baumans";font-size: 22px;color: coral;}
-.background{background-color: white;}
+body { font-family: "Baumans";font-size: 22px;color: coral; background-color: paleturquoise;}
 
-   .custom-select {
+
+#header { background:#eee; }
+      #header-inner { margin:0 auto; padding:10px; width:100%;color: coral;background:honeydew;position:absolute;}
+
+
+
+
+.custom-select {
   position: relative;
   float: left;
     background-color:silver  ;
@@ -327,15 +333,14 @@ padding: 5px;
     .container {
   position: relative;
   max-width: 100%;
-background-color: #2F4F4F;
-height: 250px;
-margin: 1px;
+
 
 }
 
 .container .content {
   position: absolute;
   bottom: 0;
+  background-color: lightblue;
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.35); 
   color: #f1f1f1;
@@ -351,14 +356,12 @@ margin: 1px;
             .row::after {content: "";  clear: both;  display: table;}
       .clr { clear:both; padding:0; margin:0; width:100%; font-size:0px; line-height:0px;}
 
-      .center { margin: 50px; position:relative; right: 5px;width: 65%;height: 2900px;padding: 1px; overflow: auto;color: crimson;background-color: white;}
+      .center { margin: 50px; position:relative; right: 5px;width: 65%;height: 2900px;padding: 1px; overflow: auto;color: crimson;background-color: lightpink;}
       div.center {
   font-size: 20px;
 }
 
- .column:hover{
- box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
- }
+ 
 .n-ppost-name {
 
     top: 100%;
@@ -380,7 +383,7 @@ margin: 1px;
     
     .add {
   display: block;
-  width: 300px;
+  width: 100px;
   border: none;
   background-color: crimson;
   color: white;
