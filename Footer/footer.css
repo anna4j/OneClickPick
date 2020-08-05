@@ -1,25 +1,27 @@
 .footer-top{
-    background: khaki;
-    color:indianred;
+    background-image: linear-gradient(to left,#aa076b , #61045f);;
+    
     padding: 50px 0;
     padding-left: 15px;
     
 }
 .segment-one, .segment-two , .segment-three 
 {
-    border-right: 1px solid indianred;
+    border-right: 1px solid #cc5490;
     text-align:center;
 }
 
 .segment-one h2{
     font-family:'Courier New', Courier, monospace;
-    
+    color:#cc5490;
+    font-weight: bold;
     letter-spacing: 3px;
-    margin: 10px 0;
+    margin: 0;
 }
 .segment-two h2{
+    font-weight:bold;
+     color:#cc5490;
     font-family:'Courier New', Courier, monospace;
-    text-transform: uppercase;
 }
 /*.segment-two h2:before{
     content: '|';
@@ -38,9 +40,11 @@
 .segment-two ul li a{
     text-align:center;
     text-decoration: none;
-    color:indianred;
+    color:#ffe6ff;
 }
 .segment-three h2{
+    font-weight:bold;
+     color:#cc5490;
     text-transform: uppercase;
     font-family: 'Courier New', Courier, monospace;
   }
@@ -50,7 +54,7 @@
     padding-right: 10px;
 }*/
 .segment-three a{
-    background: #494848;
+    background: #ffe6ff;
     width: 40px;
     height: 40px;
     display: inline-block;
@@ -58,10 +62,12 @@
 }
 .segment-three a i{
     font-size: 20px;
-    color:#fff;
+    color:#cc5490;
     padding: 10px 12px;
 }
 .segment-four h2{
+    color:#cc5490;
+    font-weight:bold;
     text-transform: uppercase;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -76,19 +82,20 @@
 }
 
 .segment-four form input[type=submit]{
-    background:orangered;
+    background:#ffe6ff;
     border:none;
     padding: 3px 2px;
     margin-left: -5px;
-    color: #fff;
+    color: #cc5490;
     text-transform: uppercase;
 }
 
 .footer-bottom-text{
     text-align: center;
-    background:steelblue;
+    background:#ffe6ff;
     line-height: 50px;
-    color:white;
+    color:#cc5490;
+
     margin-bottom:0;
 }
 .page-footer

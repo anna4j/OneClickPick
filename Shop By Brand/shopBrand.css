@@ -1,5 +1,5 @@
 .heading.display{
-	background-color: honeydew;
+	background-image: linear-gradient(to left,#aa076b , #61045f);
 	color: coral;
 	text-align:center;
 	word-spacing: .5em;
@@ -10,7 +10,7 @@
 #view_More{
 	text-align:center;
 	word-spacing: .1em;
-	background-color: lightpink;
+	background-image: linear-gradient(to left,#aa076b , #61045f);
 	width: 100%;
 	margin-top: 4px; 
 	color: crimson;
@@ -35,7 +35,7 @@
    }
 
 .shopbybrand{
-	 background-color: paleturquoise;
+	 background-image: linear-gradient(to left,#aa076b , #61045f);
 }
 
 .card{
