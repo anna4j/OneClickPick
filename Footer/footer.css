@@ -45,7 +45,7 @@
 .segment-three h2{
     font-weight:bold;
      color:#cc5490;
-    text-transform: uppercase;
+    
     font-family: 'Courier New', Courier, monospace;
   }
 /*.segment-three h2:before{
@@ -68,7 +68,7 @@
 .segment-four h2{
     color:#cc5490;
     font-weight:bold;
-    text-transform: uppercase;
+    text-align: center;
     font-family: 'Courier New', Courier, monospace;
 }
 /*.segment-four h2:before{
