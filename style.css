@@ -4,6 +4,24 @@ html, body
     background-image: linear-gradient(to left,#aa076b , #61045f);/* or #000428 → #004e92*/
     
 }
+.chatbot
+{
+     background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    border-top-left-radius:50%;
+    border-top-right-radius: 50%;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    position:fixed;
+    bottom:0;
+    right:0;
+}
+.chatbot a i
+{
+    color:black;
+}
 .hi-slide
 {
     position:relative;
