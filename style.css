@@ -9,18 +9,28 @@ html, body
      background-color: Transparent;
     background-repeat:no-repeat;
     border: none;
-    border-top-left-radius:50%;
-    border-top-right-radius: 50%;
+    /*border-top-left-radius:50%;
+    border-top-right-radius: 50%;*/
     cursor:pointer;
     overflow: hidden;
     outline:none;
     position:fixed;
     bottom:0;
     right:0;
+    transition: .6s ease-out;
+    box-shadow:0 10px 10px rgba(112, 112, 219,0.5);
+
+    
 }
 .chatbot a i
 {
     color:black;
+    
+
+}
+.chatbot:hover
+{
+   transform: scale(1.2);
 }
 .hi-slide
 {
