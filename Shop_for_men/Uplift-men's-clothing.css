@@ -414,6 +414,12 @@ h5 a{
     transform: translateY(0%);
 }
 
+.col .card:hover .card-body
+{
+    top: 0%;
+    transform: translateY(0%);
+}
+
 /*
 .col .card .imgBx img
 {
