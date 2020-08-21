@@ -1,11 +1,12 @@
-body { font-family: "Baumans";font-size: 22px;color: coral; background-color: paleturquoise;}
-
-
-#header { background:#eee; }
-      #header-inner { margin:0 auto; padding:10px; width:100%;color: coral;background:honeydew;position:absolute;}
-
-
-
+body { font-family: "Baumans";font-size: 22px;background-color: white;}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   }
+  .main_container{
+    background-color: white;
+  }
 
 .custom-select {
   position: relative;
@@ -71,13 +72,13 @@ body { font-family: "Baumans";font-size: 22px;color: coral; background-color: pa
 }
 
 .select-items div:hover, .same-as-selected {
-  background-color:DodgerBlue;
+  background-color:purple;
 }
 
  .sidebar {
  float: left;
  background-color: white;
-  margin: 50px; 
+  margin: 30px; 
   position:relative; 
   left: 5px;
   width: 25%;
@@ -333,7 +334,8 @@ padding: 5px;
     .container {
   position: relative;
   max-width: 100%;
-
+background-color:grey;
+margin-top: 200px;
 
 }
 
@@ -346,46 +348,40 @@ padding: 5px;
   color: #f1f1f1;
   width: 100%;
   height: 100px;
-  padding: 10px;
-
+  margin: 0;
 }
- .container img {vertical-align: middle;}
 
 
-      .column { float: left; width:33.3%; padding: 10px;padding-left: 20px} 
+
+      .pbox { float: left; width:33.3%; padding: 50px;} 
             .row::after {content: "";  clear: both;  display: table;}
       .clr { clear:both; padding:0; margin:0; width:100%; font-size:0px; line-height:0px;}
 
-      .center { margin: 50px; position:relative; right: 5px;width: 65%;height: 2900px;padding: 1px; overflow: auto;color: crimson;background-color: lightpink;}
-      div.center {
+      .pcontainer { margin: 50px; position:relative; right: 5px;width: 65%;height: 2900px;padding: 1px; overflow: auto;background-color: white;}
+      div.pcontainer{
   font-size: 20px;
 }
+ .pcontainer {
+        position:relative;
+         right: 5px;
+        width: 68%;
+        height: 2370px;
+        padding: 15px ;
+         overflow: auto;
+          display: flex;
+         flex-direction: column;
+         transform-style: preserve-3d;
+       }
 
  
-.n-ppost-name {
 
-    top: 100%;
-    left: 30%;
-    margin-top: 10px;
-    width: 40%;
-    opacity: 0;
-    -webkit-transform: translate3d(0, -15px, 0);
-            transform: translate3d(0, -15px, 0);
-    -webkit-transition: all 150ms linear;
-    -o-transition: all 150ms linear;
-    transition: all 150ms linear;
-    font-size: 1.0625rem;
-    font-weight: 500;
-    line-height: 1.4;
-    visibility: hidden;
-    pointer-events: none;
-}
     
     .add {
   display: block;
-  width: 100px;
+  width: 190px;
+  height:40px;
   border: none;
-  background-color: crimson;
+  background-color:darkmagenta;
   color: white;
   padding: 14px 28px;
   font-size: 16px;
@@ -394,13 +390,43 @@ padding: 5px;
   border-radius:10px;
 }
 
-.n-ppost:hover + .n-ppost-name {
-    opacity: 1;
-    visibility: visible;
-    -webkit-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
+.pcontainer .pbox{
+  position: relative;
+  width: 33.3%;
+  height: 400px;
+  margin: 5px 0;
+
+     transform-style: preserve-3d;
+}
+.pcontainer .pbox:hover {
+box-shadow: 0 50px 80px rgba(0,0,0,0.3);
+
+}
+.pcontainer .pbox .pimgbx{
+position: relative;
+top: 0;
+left:0;
+width:100%;
+height:100%;
 }
 
+.pcontainer .pbox .pcontentbx{
+position:absolute;
+color: white;
+top: 50%;
+left:50px;
+right: 50px;
+background: rgba(0, 0, 0, 0.35); 
+transform: translateZ(20px) scaleY(0);
+padding: 40px 25px;
+transform-origin: top;
+transition: 0.5s;
+ transform-style: preserve-3d;
+}
+.pcontainer .pbox:hover .pcontentbx{
+  transform: translateZ(25px) scaleY(1.5);
+
+}
 
 a.ex:visited, a.ex:link {text-decoration: none;}
 a.ex:hover, a.ex:active {color:  #F08080;}
