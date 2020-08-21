@@ -5,16 +5,18 @@
 
 # HTML CSS JavaScript 
 # Team name: team-html06
-# Domain: e-commerce and marketing
+# Domain: Marketing
 
 This is the project that we as a team are working on for The Uplift Project by GirlScript Foundation. 
 
-We are creating a landing page for a fashion store with a built in IBM Watson Chat-Bot. The landing page will include details about: 
+We are creating a Landing Page for a Fashion Store with a built in IBM Watson Chat-Bot. The Landing Page will include details about: 
+
 1.	The types of clothes available – Men and Women section
-2.	Shop by Store- contains different	Locations of the store
+2.	Shop by Store- Contains different	Locations of the store
 4.	Contact Us section
-5.	Customer friendly chat-bot for queries
-6.	Blog page about the latest fashion trends
+5.	Customer friendly Chat-Bot for User queries
+6.	Blog page about the Latest Fashion Trends
+
 
 # Setup
 To setup the project locally follow the instructions:
