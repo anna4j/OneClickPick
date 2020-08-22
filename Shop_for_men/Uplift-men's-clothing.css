@@ -250,6 +250,7 @@ a.logo:hover{
         width:100%;
     }
 }
+
 /*Navbar Ending*/
 
 
@@ -329,15 +330,6 @@ h5 a{
     
 }
 
-@media screen and (max-width: 770px) {
-    aside {
-        display: none;
-    }
-    #product-section {
-        margin-left: 100xp;
-    }
-}
-
 @media screen and (max-width: 1024px) {
     #side-heading {
         width: 203px;
@@ -349,7 +341,59 @@ h5 a{
         width: 203px;
     }
 }
+@media screen and (max-width: 770px) {
+    aside {
+        width: 20%;
+    }
+    
+    #side-heading {
+        width: 153px;
+    }
+    
+    .search-bar-1 #search-bar-1, #search-bar-2 {
+        width: 152px;
+        margin-top: 2px;
+    }
+    
+    #search-bar-3 {
+        width: 153px;
+    }
+    
+    #product-section {
+        width: 70%;
+    }
+    
+    .col .card{
+        height: 125px;
+        width: 225px;
+        margin-left: 10px;
+    }
+    
+}
+@media screen and (max-width: 430px) {
+    #items {
+        display: none;
+    }
+    #product-section{
+        position: relative;
+            right: 75px;
+    }
+}
 
+@media screen and (max-width: 380px) {
+    #product-section{
+        position: relative;
+            right: 35px;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    #product-section{
+        position: relative;
+            right: 70px;
+            top: 50px;
+    }
+}
         /*aside*/
         /*Content*/
 
