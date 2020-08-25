@@ -22,9 +22,13 @@ html, body
 
 
 }
+
+.fa-3x{
+  font-size: 4rem;
+}
 .chatbot a i
 {
-    color:black;
+    color:#ffe6ff;
 
 
 }
