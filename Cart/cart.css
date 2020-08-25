@@ -3,7 +3,10 @@
 .table{margin-top: 150px;}
 
 /* footer */
+#bootstrap-overrides{
 
+  background-color: #141114;
+}
 
 Nav
 {

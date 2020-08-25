@@ -2,7 +2,7 @@ html, body
 {
     overflow-x:hidden;
     background-image: linear-gradient(to left,#aa076b , #61045f);/* or #000428 → #004e92*/
-    
+
 }
 .chatbot
 {
@@ -20,12 +20,12 @@ html, body
     transition: .6s ease-out;
     box-shadow:0 10px 10px rgba(112, 112, 219,0.5);
 
-    
+
 }
 .chatbot a i
 {
     color:black;
-    
+
 
 }
 .chatbot:hover
@@ -58,7 +58,7 @@ html, body
 }
 .hi-slide .hi-next:hover, .hi-slide .hi-prev:hover{
     opacity:1;
-    
+
 }
 .hi-slide .hi-prev
 {
@@ -359,11 +359,11 @@ a.logo:hover{
 {
     border:2px solid indianred;
 }
-   
-        .customtoggler .navbar-toggler-icon { 
-            background-image: url( 
-"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(205,92,92)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
-        } 
+
+        .customtoggler .navbar-toggler-icon {
+            background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(205,92,92)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+        }
 @media(max-width:991px)
 {
      .search, .cart, .user{

@@ -10,6 +10,14 @@ html , body{
     box-sizing: border-box;
 }
 
+#bootstrap-overrides{
+
+  background-color: #141114;
+}
+
+.drop a:hover,.drop{
+    background-color:#141114;
+}
 
 Nav
 {
@@ -21,13 +29,8 @@ Nav
   background-size: 58px 58px;
   background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;*/
 }
-.drop a:hover{
-  background-color:#141114;
-}
 
-.drop{ 
-  background-color: black;
-}
+
 .sign {
     width:100%;
     text-align:center;
@@ -254,11 +257,11 @@ a.logo:hover{
 {
     border:2px solid indianred;
 }
-   
-        .customtoggler .navbar-toggler-icon { 
-            background-image: url( 
-"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(205,92,92)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
-        } 
+
+        .customtoggler .navbar-toggler-icon {
+            background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(205,92,92)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+        }
 @media(max-width:991px)
 {
      .search, .cart, .user{
@@ -286,16 +289,16 @@ a.logo:hover{
 .carousel-container{
     width: 80.8%;
     margin: auto;
- 
+
     padding-top: 80px;
     padding-bottom: 11px;
     overflow: hidden;
     position: relative;
     background-color: white;
-   
+
 }
 .carousel-slide{
-   
+
     border-radius: 50%;
     display:flex;
     width: 100%;
@@ -303,7 +306,7 @@ a.logo:hover{
 }
 .adjust{
     padding: 10px;
-    
+
 }
 
 #prevBtn{
@@ -402,10 +405,10 @@ img{
 }
 .footer-top{
     background-image: linear-gradient(to left,#aa076b , #61045f);;
-    
+
     padding: 50px 0;
     padding-left: 15px;
-    
+
 }
 .segment-one, .segment-two , .segment-three , .segment-four
 {
@@ -448,7 +451,7 @@ img{
 .segment-three h2{
     font-weight:bold;
      color:#cc5490;
-    
+
     font-family: 'Courier New', Courier, monospace;
   }
 /*.segment-three h2:before{
@@ -480,7 +483,7 @@ img{
     padding-right: 10px;
 }*/
 .sub{
-    
+
     display: block;
 }
 
@@ -532,6 +535,3 @@ hr{
     margin-left: 70px;
     margin-right: 70px;
 }
-
-
-
