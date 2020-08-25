@@ -1,7 +1,12 @@
 html , body{
     margin: 0;
     padding: 0;
-    height:100%;    
+    height:100%;
+}
+
+#bootstrap-overrides{
+
+  background-color: #141114;
 }
 Nav
 {
@@ -16,6 +21,8 @@ Nav
 .drop a:hover,.drop{
     background-color:#141114;
 }
+
+
 .sign {
     width:100%;
     text-align:center;
@@ -242,11 +249,11 @@ a.logo:hover{
 {
     border:2px solid indianred;
 }
-   
-        .customtoggler .navbar-toggler-icon { 
-            background-image: url( 
-"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(205,92,92)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
-        } 
+
+        .customtoggler .navbar-toggler-icon {
+            background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(205,92,92)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+        }
 @media(max-width:991px)
 {
      .search, .cart, .user{
@@ -259,7 +266,7 @@ a.logo:hover{
     width: 100%;
     height: 100%;
     padding-top: 6%;
-    
+
   }
   .title{
     padding-left:7px;
@@ -267,7 +274,7 @@ a.logo:hover{
 .title h4{
   color:rebeccapurple;
   font-size: 35px;
-  font-family:red rose; 
+  font-family:red rose;
   text-decoration: none;
 }
 
@@ -304,27 +311,27 @@ a {
 .info2 h4{
   color:rebeccapurple;
   font-size:35px;
-  font-family:red rose; 
+  font-family:red rose;
   padding-left: 7px;
 }
 .info3 h4{
   color:rebeccapurple;
   font-size:35px;
-  font-family:red rose; 
+  font-family:red rose;
   style:none;
 }
 .info4 h4{
   color:rebeccapurple;
   font-size:35px;
-  font-family:red rose; 
+  font-family:red rose;
   padding-left:7px
 }
 .info6 h4{
   color:rebeccapurple;
   font-size:32px;
-  font-family:red rose; 
+  font-family:red rose;
   padding-left:7px;
-  
+
 }
 .info7{
   padding-left:7px;
@@ -382,37 +389,37 @@ a {
   transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
 }
   .float-img{
-    max-height:40%; 
+    max-height:40%;
     max-width:30%;
     height: auto;
-    float: right; 
+    float: right;
     margin-top: -4%;
-  
+
 }
 .float-img2{
     max-height:35%;
     max-width:30%;
     float: right;
-    margin-right: 12px; 
-    margin-bottom: 2px; 
+    margin-right: 12px;
+    margin-bottom: 2px;
     margin-top: -5%
 }
 .float-img3{
     height: 35%;
     width: 31%;
     float: right;
-    margin-right: 10px; 
-    
+    margin-right: 10px;
+
     padding: 2px;
     margin-top: -6%;
 }
 
 .footer-top{
   background-image: linear-gradient(to left,#aa076b , #61045f);;
-  
+
   padding: 50px 0;
   padding-left: 15px;
-  
+
 }
 .segment-one, .segment-two , .segment-three , .segment-four
 {
@@ -455,7 +462,7 @@ a {
 .segment-three h2{
   font-weight:bold;
    color:#cc5490;
-  
+
   font-family: 'Courier New', Courier, monospace;
 }
 /*.segment-three h2:before{
@@ -487,7 +494,7 @@ a {
   padding-right: 10px;
 }*/
 .sub{
-  
+
   display: block;
 }
 
@@ -533,18 +540,17 @@ a {
 }
 #back-to-top-btn:hover, #back-to-top-btn:focus {
   background-color: #333;
-  color: #fff;  
+  color: #fff;
 }
-#back-to-top-btn { 
-    font-size: 18px; 
-    width: 32px; 
-    height: 32px; 
-    bottom: 6px; 
+#back-to-top-btn {
+    font-size: 18px;
+    width: 32px;
+    height: 32px;
+    bottom: 6px;
     right: 6px;
 }
 .btnEntrance {
   animation-duration: 0.5s;
   animation-fill-mode: both;
   animation-name: btnEntrance;
-} 
-
+}
